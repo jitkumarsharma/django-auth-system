@@ -3,7 +3,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'your-secret-key'
-DEBUG = True
+DEBUG = False 
 
 ALLOWED_HOSTS = ["django-auth-system-4.onrender.com"]
 
@@ -72,8 +72,8 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
-EMAIL_HOST_USER = '22ictsharma@gmail.com'
-EMAIL_HOST_PASSWORD = 'qafcdlwzsglaccvj'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
 
 CSRF_TRUSTED_ORIGINS = ["https://django-auth-system-4.onrender.com"]
 
