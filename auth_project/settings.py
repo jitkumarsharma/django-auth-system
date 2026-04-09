@@ -5,7 +5,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'your-secret-key'
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ["https://django-auth-system-4.onrender.com"]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -54,7 +54,7 @@ DATABASES = {
     }
 }
 
-AUTH_PASSWORD_VALIDATORS = ['*']
+AUTH_PASSWORD_VALIDATORS = []
 
 STATIC_URL = '/static/'
 
