@@ -75,4 +75,8 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = '22ictsharma@gmail.com'
 EMAIL_HOST_PASSWORD = 'qafcdlwzsglaccvj'
 
+CSRF_TRUSTED_ORIGINS = ["https://django-auth-system-4.onrender.com"]
+
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
 # DEFAULT_FROM_EMAIL = EMAIL_HOST_USER 
