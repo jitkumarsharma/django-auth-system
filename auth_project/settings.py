@@ -75,7 +75,8 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = ''
 EMAIL_HOST_PASSWORD = ''
 
-CSRF_TRUSTED_ORIGINS = ["https://django-auth-system-4.onrender.com"]
+CSRF_TRUSTED_ORIGINS = ["https://django-auth-system-4.onrender.com"",http://127.0.0.1:8000",
+    "http://localhost:8000",]
 
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
